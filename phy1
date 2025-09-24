@@ -7,4 +7,4 @@
     7  systemctl status jenkins
     8  systemctl status jenkins.service
     9  cat /var/lib/jenkins/secrets/initialAdminPassword
-save 
+      sudo -s to login with root user.
