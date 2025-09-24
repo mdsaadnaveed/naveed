@@ -18,3 +18,8 @@ chkconfig jenkins on
 check the jenkins status
 systemctl status jenkins.service
 save
+create a file 
+vi jenkins.sh
+copy paste the above 
+and run 
+sh jenkins.sh
