@@ -1,15 +1,10 @@
-iabvcab 
-ugchfcfl
-ug yiv
- [i '
-y
-ivy v
-yi
-
-i hb
-9uviyv 
-g9iy9g ouo g
-
-g9iygu 0ugoug 0u
-ou 
-0u
+ 1  yum install git java-17-amazon-corretto maven -y
+    2  sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
+    3  sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
+    4  yum install jenkins -y
+    5  systemctl start jenkins
+    6  systemctl start jenkins.service
+    7  systemctl status jenkins
+    8  systemctl status jenkins.service
+    9  cat /var/lib/jenkins/secrets/initialAdminPassword
+save 
