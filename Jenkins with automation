@@ -1,2 +1,20 @@
+# step 1 install git and maven
 yum install git maven  -y
-sudo wget -O 
+
+# step 2 repo information jenkins. io   download redhat
+sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
+sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
+
+# step 3 download java 17 and jenkins 
+sudo yum install java-17-amazon-corretto -y
+yum install jenkins -y
+
+# step 4 start the jenkins service
+systemctl start jenkins.service
+
+# step 5 auto start jenkins
+chkconfig jenkins on 
+
+check the jenkins status
+systemctl status jenkins.service
+save
