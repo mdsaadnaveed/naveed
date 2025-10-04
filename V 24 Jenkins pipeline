@@ -1,0 +1,46 @@
+Jenkins pipeline 
+code-build-test-artifacts-deployment
+pipeline = series of steps
+pipeline is used automate the work
+
+scripted    | declarative 
+shorts      | long 
+no stages   | stages
+
+stages 1 code
+stages 2 build
+stages 3 test
+stages 4 artifacts 
+stages 5 deployment
+
+passs      pas 3 
+
+pipeline 
+agent
+stages
+stage
+steps
+
+pipeline
+
+start - clonning - build - codetest - codereview - generating artifacts - deployment end.
+
+
+pipeline script 
+
+pipeline {
+ agent any 
+ stages {
+  stage('one') {
+   steps { 
+    git '--------------'
+    mvn compile
+    mvn test 
+    mvn clean packages
+   }
+  }
+ } 
+}
+
+
+
