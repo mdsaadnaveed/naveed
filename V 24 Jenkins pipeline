@@ -41,6 +41,8 @@ pipeline {
   }
  } 
 }
+run the jenkins with ip address and :
+copy paste the passwd with cat command 
 
 
 
