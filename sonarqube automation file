@@ -1,0 +1,24 @@
+#!/bin/bash
+cd /opt/
+
+# Download SonarQube
+wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-8.9.6.50800.zip
+
+# Unzip it
+unzip sonarqube-8.9.6.50800.zip
+
+# Install Java 11 (required for SonarQube 8.x)
+amazon-linux-extras install java-openjdk11 -y
+
+# Create a dedicated user for SonarQube
+useradd sonar
+
+# Set ownership and permissions
+chown sonar:sonar sonarqube-8.9.6.50800 -R
+chmod 777 sonarqube-8.9.6.50800 -R
+
+# Switch to sonar user
+su - sonar
+# use the below command manually after installation
+# sh /opt/sonarqube-8.9.6.50800/bin/linux-x86-64/sonar.sh start
+# echo "user=admin & password=admin"
