@@ -1,0 +1,16 @@
+ls -al displayed files and directory also the hidden files
+ls -a show all files 
+ls - lh displayed files size 
+touch to crate a empty files 
+ls -ltr show the files
+ls -f* to list the file with start with f
+mkdir to create a directory 
+rm -rf to delete the directory 
+cp copy the file with files name and destination 
+mv to move the files with file name and file name2
+vi editor insert mode and cmd mode
+tail -n 5 baba.txt to displayed the file for 5 lies 
+  or cat file name to displayed the file output
+  cat > is also to create a file vi editor file and also to displayed the files
+  
+to delete ecery thing rm -rf *
