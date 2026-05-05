@@ -1,0 +1,12 @@
+cd ..
+cd ../..
+hostname
+hostnamectl set-hostname saad
+dd to delete in vi 
+script is for recording the cmd
+typescript to play the video
+gzip is only used the zip the file not directory
+for unzip gunzip file2.gz
+tar is used to compress the directory 
+tar -cfz maaz.tar.gz maaz/
+for untar tar -xzf hello.tar.gz
