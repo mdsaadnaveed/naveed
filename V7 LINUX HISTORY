@@ -1,0 +1,22 @@
+LINUX IS OPEN SOURCE 
+LINUX IS MULTI TASKING 
+LINUX IS PORTABLE 
+LINUX IS SECURE
+LINUX IS CLI
+
+LINUX FILE SYSTEM 
+BIN         BOOT                           ETC                  HOME              var files    tmp files 
+BINARIES     BOOT LOAD FILES          Configuration             /home/tom         logs          storing temp files 
+CAT          KERNELS                  files required by         /home/jerry 
+IS           ETC                       program 
+PWD CMD TO CHECK THE CURRENT DIRECTORY 
+SUDO -I 
+SUDO -S
+SUDO  -SU
+TO LOGIN TO ROOT USER CMD
+CAT/ETC/OS-RELEASE TO CHECK THE OS VERSION 
+CLEAR CMD TO CLEAR THE SCREEN 
+CD TO CHECK THE DIRECTRY CURRENT 
+LS TO LIST THE DIRECTORY
+HISTORY CMD TO CHECK THE HISTORY
+
