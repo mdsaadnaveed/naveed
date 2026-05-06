@@ -9,4 +9,14 @@ ps -aux to list all the runing process in details
 kill -9 and pgrep ngnix
 uname -a
 df -h disk file system
+date to check the date 
+rpm -qa | ngnix
+dnf list installed or 
+yum installed available to check the list of software is installed
+to install ifconig first installed net-tools
+yum install -y net-tools
+ping cmd used icmp protocal
+netstat to used the tcp and udp list check 
+wget yum install -y wget
+yum install -y telnet 
 
