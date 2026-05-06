@@ -1,0 +1,12 @@
+sed cmd to replace word 
+wget to download files from internet
+yum install -y nginx
+systemctl status ngnix 
+systemctl start ngnix
+systemctl stop ngnix 
+systemctl restart nginx 
+ps -aux to list all the runing process in details
+kill -9 and pgrep ngnix
+uname -a
+df -h disk file system
+
