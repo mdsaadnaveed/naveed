@@ -1,0 +1,23 @@
+useradd saad
+passwd saad
+su saad to switch from root user to saad
+groupadd devops to add the groups
+cat /etc/group
+r w x
+permission 
+rwx rwx rwx 
+user group others
+create a file and give the permission 
+chmod 755 file name
+ls -ltr to check the file permission
+winscp to transfer file from linux to windows
+ copy paste the file from one linux machine to other linux machine 
+with in the vpc one can used the private ip and another can used the public ip
+scp -i and copy pem file
+yum install -y httpd first server step 
+systemctl start httpd
+copy paste the code from w3school
+and paste to vi file 
+create a file in cd /var/www/html/
+run with the ip address
+yum remove ngnix to remove the software
