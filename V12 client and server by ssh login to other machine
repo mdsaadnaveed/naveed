@@ -1,0 +1,28 @@
+create 2 instance in linux 
+for ansible master and salve 
+login from one machine to other without password 
+by ssh 
+sudo -s 
+hostnamectl set-hostname server1 and 2
+set the roor password sudo -i
+passwd root 1
+cd sshd_config
+vi sshd_config
+change the line no 38 and permitroot comment yes
+chnage the line no 61 and passwordauthentication yes commented
+systemctl start sshd
+system status sshd
+hostname -i to check the ip address
+cd /
+ssh-keygen enter enter enter
+pwd and cd root/
+ls ls -al
+cd .ssh/
+ls
+ssh-copy-id root@ipaddress private coping the key to server
+ssh root@ipddress 
+hw 
+yum install -y vsftpd
+
+
+
