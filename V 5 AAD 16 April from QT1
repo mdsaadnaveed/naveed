@@ -3,4 +3,30 @@ create a group name developer and add user and owner my self
 create another group tester and add user to the group 
 add a role to developer from IAM role name virtual machine contributor 
 add a role to tester group role name virutal machine tester from IAM PAY AS GO 
-Create a user robert and 
+Create a user robert and rahim 
+tester will have read only access to vm and developer have full access vm n/t and  storage account
+
+create a custom roles in azure 
+determine the permission you give and understand the syntax role and definition 
+create a custom role with json file 
+
+
+{
+"name" "virtual machine operator qt",
+"IsCustom": true,
+"Action": [
+     "microsoft.classicCompute/virtualMachine/read",
+
+  ],
+"NotAction":[],
+"DataAction":[],
+"NotDataAction"[],
+"AssignableScopes":["/"]
+}
+
+
+then add custom role in IAM PAY AS GO
+Custom role name virtual machine operator 
+des start and stop give a path 
+
+add a role to the group vm operator qt
