@@ -1,1 +1,21 @@
+Create a custom role using power shell and give full access for vm and and azure sql 
+read only access on azure virtual networks and azure storage accounts
+
+
+"Name": "qt project contributor",
+"IsCustom": true,
+"Description": "This role give permission to vm and sql read only access",
+"Actions": [
+
+"Microsoft.ClassicNetwork/virtualNetworks/join/action",
+"Microsoft.ClassicNetwork/virtualNetworks/read/*"
+
+],
+"NotAction":[],
+"DataAction":[
+"Microsoft.ClassicStorage/storageAccounts/images/read",
+],
+"NotDataAction":[]
+"AssignableScope": ["/"]
+}
 
