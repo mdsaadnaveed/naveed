@@ -1,0 +1,6 @@
+Create a user and give him a full access to vm 
+create a group name developer and add user and owner my self 
+create another group tester and add user to the group 
+add a role to developer from IAM role name virtual machine contributor 
+add a role to tester group role name virutal machine tester from IAM PAY AS GO 
+Create a user robert and 
