@@ -15,7 +15,24 @@ read only access on azure virtual networks and azure storage accounts
 "DataAction":[
 "Microsoft.ClassicStorage/storageAccounts/images/read",
 ],
-"NotDataAction":[]
+"NotDataAction":[],
 "AssignableScope": ["/"]
 }
+
+
+ Get-Command '*-AzRoles*'
+to get all the cmd for az
+Connect-AzAccount to connect to az account 
+upload the json file 
+
+create a role defination 
+Get-Command '*-AzADuser*'
+Get-Command '*-AzADgroup*'
+Get-AzADGroup | Select DisplayName
+Get-Command '*-AzRoles*'
+create a vm 
+exercise update a role json and make it work for the above mentined scenario to change the role defintion 
+user Set-AzRoleDefination cmdlet
+understanding scope failer
+creating similar role assigment and creating azure cli
 
