@@ -1,0 +1,10 @@
+Create a custom role give full access 
+virtual machine contributor role and virtual machine user login role
+Get-AzRoleDefinition
+Get-Help Get-AzRoleDefinition
+create a vm and create a rg
+using existing role and write a role 
+stop a vm with a role on subcription level vm conributor 
+create a vm reader role 
+create a custom role with power shell
+admins roles
