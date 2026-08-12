@@ -1,1 +1,13 @@
+create a vm in azure open the all the port with * 
+in aws create a ec 2 instance with server os active directory 
+login with pem file 
+c
+click on win launch server manager
+click on local server ie enchance off it
+add roles and features active directory domain services
+install give a doamin name and give bios name 
+add user from x man from ative directory user and computer 
+give permission to user remote management user and remote user 
+in aws domain is LT and login with user iron 
+create a group and add members and user
 
