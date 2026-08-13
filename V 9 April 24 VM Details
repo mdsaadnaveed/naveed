@@ -1,0 +1,16 @@
+Create a vm in azure 
+create a remote desktop connection 
+create a vm of linux with user name and password
+three vm call as virtual machine scale set
+other components create while create a vm are virtual disk and vnet and need a network interface 
+in network interface there is a fire wall called a NSG network security group logs of vm are in the storage account 
+azure support workload 
+redhat 
+oracle 
+sap
+Open shift 
+elastic search 
+azure for gaming 
+mainframe rehosting 
+azure also provides to create a azure custom vm images 
+cost of vm and cost of disk and cost of os and vm 
