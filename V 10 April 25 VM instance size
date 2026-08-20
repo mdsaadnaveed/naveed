@@ -1,0 +1,11 @@
+azure vm size and cpu and disk attached 
+temp disk 
+vm size is b1 or 
+each category type has a series such as B, A1, DaV3 ETC 
+MKDIR ECHO 
+create a folder with some files in he os disk and temp disk
+Restart the vm verify the data
+starting state runing state stopping state and deolocated stopped 
+creating not billed update billed deleting not billed deleted not billed 
+runing billed stopping billed stopped billed dellocating billed delocatted not billed
+
