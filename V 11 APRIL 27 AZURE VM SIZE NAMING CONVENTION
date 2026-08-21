@@ -1,0 +1,11 @@
+AZURE PRICING CALULATOR 
+CREATE A LINUX MACHINE INSTALL THE LAMP STACK
+INSTALL THE APACHE INSTALL THE PHP 
+WITH SUDO COMMAND 
+SUDO APP INSTALL APACHE 
+SUDO APP INSTALL PHP 
+SUDO APP INSTALL PHP-CLI -Y
+sudo app install stress -y
+now let create a windows vm and install the iis server
+Powershell cmd 
+Install-WindowsFeature -name 'Web-Server' -IncludeMangementTools
