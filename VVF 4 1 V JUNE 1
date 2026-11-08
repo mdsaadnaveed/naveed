@@ -1,3 +1,8 @@
 az login cmd to login
 
 az group list --output table to check the list of the group created in azure
+create a resource group 
+az group creation --location 'eastus' --name saad
+or --accesstire hot --sku
+after storage account create then create a container 
+az storage account create --account-name 'saad' --auth-mode login
