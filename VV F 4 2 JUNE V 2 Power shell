@@ -1,0 +1,13 @@
+Connect-AzAccount
+Find cmdlets to 
+list the resource group 
+create a resource group 
+list the storage account 
+create the storage account 
+create a container in storage account 
+
+Get-AzResourceGroup
+New-AzResourceGroup
+Get-AzStorageAccount
+New-AzStorageAccount
+New-AzStorageContainer
