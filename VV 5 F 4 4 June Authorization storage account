@@ -1,0 +1,10 @@
+In azure we an auhorize storage account data using 
+azure active directory 
+shared key
+shared access signature 
+
+create a storage account or use existing 
+create a folder locally with some content 
+create a sas token for the container 
+now copy cntent of your folder to container using az copy method 
+using AzCopy we can copy the the data from s3 bucket or google storage bucket in azure storage account 
