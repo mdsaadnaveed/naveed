@@ -1,0 +1,23 @@
+cdn 
+content delivery network cnd in azure 
+a cdn is a distributed network of server that can efficiently deliver web content to the user 
+cdn store cached content on the edge server in the POP point of presence location that are closer to the end user with 
+minimizes latency 
+azure CDN offer a global solution of rapidly delivery high bandwidth cntent to the user by caching the content at strategically 
+places physical nodes across the world 
+create a VM 
+Create a storage account 
+create a resource group 
+
+CDN is used to reduce a latency 
+using the cache 
+having server in multiple location 
+create a CDN Profile 
+uploaded the videos 
+create a html profile 
+if we used a storage as backend and choose the cdn provider the content is cached globally and latency is minimized
+
+azure fule share
+azure file share create a file shares in the cloud we can access the files using the SMB server message block
+protocol 
+crate a new resource group and create a storage standard gernal propose 
