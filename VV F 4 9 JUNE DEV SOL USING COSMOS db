@@ -1,0 +1,24 @@
+Azure cosmos D is a NOSQL Database 
+In relational sql data the table and cell defination is known as schema and must me defined before e can enter 
+data into it
+for querying the data from elational databases sql is used
+we if pull the relevant data from multiple tables we joines quries 
+no sql databases store data as jsnon documents
+
+one of the biggest benifit of using nosql is we can easily mix the records of completely different schemas 
+cosmos db storage is the premium offering for azure table storage multi model and globally distribute data base 
+and replicate a data any number of azure regions 
+mobile app
+app beed to be gobally distributed 
+cosmos db offers 
+globally distribution 
+always on sla 99.99 high availability 
+comos db supports 
+sql api 
+gremlin api 
+tabale api 
+cassandra api
+create azure cosmos db account core sql
+geo re
+multi region 
+we can chosse multiple language 
